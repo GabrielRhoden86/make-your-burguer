@@ -1,26 +1,28 @@
 <template>
-  <NavBar/>
-  <FooterBar/>
+  <div>
+
+  </div>
+    <NavBar :logo="logo_src" :alt="app_name" />
+    <router-view />
+    <FooterBar />
 </template>
 
 <script>
-//  <router-view/> /////
 import NavBar from '@/components/NavBar.vue'
 import FooterBar from '@/components/FooterBar.vue'
+import "@/assets/css/style.css"; 
 
 export default {
     name: 'app',
     components: {
       NavBar,
       FooterBar
+  },
+  data(){
+    return {
+      logo_src: '/img/logo.png',
+      app_name: 'Make Your Burguer'
+    }
   }
 }
 </script>
-
-<style scoped>
-#app {
-  font-family: Avenir, Helvetica, Arial, sans-serif;
-  text-align: center;
-  color: #2c3e50;
-}
-</style>

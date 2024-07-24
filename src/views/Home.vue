@@ -1,18 +1,18 @@
 <template>
-  <div class="home">
-    <!-- <img alt="Vue logo" src="../assets/logo.png"> -->
-     <h1>Home</h1>
+  <banner/>
+  <div class="main-container">
+    <h1>Monte Seu Burguer:</h1>
+    <p>Formulário</p>
   </div>
 </template>
 
 <script>
-//import HelloWorld from '@/components/HelloWorld.vue'
-
+import Banner from '../components/Banner.vue';
 export default {
   name: 'Home',
   components: {
-
-  }
+    Banner
+  },
 }
 </script>
 

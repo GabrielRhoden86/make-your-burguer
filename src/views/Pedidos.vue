@@ -1,5 +1,15 @@
 <template>
-  <div class="pedidos">
-    <h1>This is an about page</h1>
+  <div class="main-container">
+    <h1>Pedidos</h1>
   </div>
 </template>
+
+<script>
+export default {
+  name: 'Pedidos'
+}
+</script>
+
+<style scoped>
+
+</style>
