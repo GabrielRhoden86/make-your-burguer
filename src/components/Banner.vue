@@ -16,10 +16,35 @@ export default {
  background-position: 0 -350px;
  background-repeat: no-repeat;
  background-size: cover; 
- height:85vh;
+ height:700px;
  display:flex;
  align-items: center;
  justify-content: flex-start;
+}
+
+/* Tablet (a partir de 768px de largura) */
+@media (max-width: 1024px) {
+  #main-banner {
+    height: 450px; /* 700px - 150px */
+  }
+
+}
+
+/* Celular (a partir de 768px de largura) */
+@media (max-width: 768px) {
+  #main-banner {
+    height: 300px; /* 550px - 150px */
+  }
+}
+
+/* Dispositivos menores (opcional) */
+@media (max-width: 576px) {
+  #main-banner {
+    height: 300px; /* 400px - 150px */
+  }
+  h1{
+    font-size:3.5rem !important;
+  }
 }
 
 #main-banner h1{
@@ -28,5 +53,6 @@ export default {
     font-size:4em;
     background-color:#222;
     padding:20px 40px;
+  
 }
 </style>
