@@ -35,7 +35,7 @@ label {
     margin-right: 20px;
 }
 
-.mb-3 .form-select, .mb-3 input{
+.mb-3 .form-select{
     background-color: #F7F7F7!important;
     border:none;
 }
