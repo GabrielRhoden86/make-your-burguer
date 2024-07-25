@@ -43,7 +43,7 @@ See [Configuration Reference](https://cli.vuejs.org/config/).
 
 ____________________________________________________Baixar Libs________________________________________
 
-## npm install bootstrap
+## npm install bootstrap bootstrap-vue
 Para usar o Bootstrap no Vue
 
 ## npm install json-server

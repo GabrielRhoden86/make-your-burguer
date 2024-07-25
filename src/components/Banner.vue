@@ -13,7 +13,7 @@ export default {
 <style>
 #main-banner{              
  background-image: url('/public/img/burger.jpg');
- background-position: 0 -350px;
+ background-position: 0 -250px;
  background-repeat: no-repeat;
  background-size: cover; 
  height:700px;

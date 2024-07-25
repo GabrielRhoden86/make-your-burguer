@@ -6,7 +6,7 @@
         <form id="form-burguer" action="">
       <div class="mb-3">
         <label for="nome" class="form-label">Nome do cliente:</label>
-        <input type="text" class="form-control" id="nome" v-model="nome" placeholder="Digite seu nome">
+        <input type="text" class="form-control" id="nome" v-model="nome">
       </div>
       <div class="mb-3">
         <label for="pao" class="form-label">Escolha o pão:</label>
@@ -25,21 +25,42 @@
         </select>
       </div>
       <div class="mb-3 r">
-        <label for="opcionais" class="form-label">Selecione os opcionais:</label>
-        <div class="form-check">
+  <label for="opcionais" class="form-label">Selecione os opcionais:</label>
+  <div class="form-check-container">
 
-          <input type="checkbox" class="form-check-input" id="salame" v-model="opcionais" value="salame">
-          <p class="form-check-label" for="salame">Salame</p>
+    <div class="form-check">
+      <input type="checkbox" class="form-check-input" id="salame1" v-model="opcionais" value="salame">
+      <label class="form-check-label" for="salame1">Salame</label>
+    </div>
 
-          <input type="checkbox" class="form-check-input" id="salame" v-model="opcionais" value="salame">
-          <p class="form-check-label" for="salame">Salame</p>
+    <div class="form-check">
+      <input type="checkbox" class="form-check-input" id="salame2" v-model="opcionais" value="salame">
+      <label class="form-check-label" for="salame2">Salame</label>
+    </div>
 
-          <input type="checkbox" class="form-check-input" id="salame" v-model="opcionais" value="salame">
-          <p class="form-check-label" for="salame">Salame</p>
+    <div class="form-check">
+      <input type="checkbox" class="form-check-input" id="salame3" v-model="opcionais" value="salame">
+      <label class="form-check-label" for="salame3">Salame</label>
+    </div>
 
+    <div class="form-check">
+      <input type="checkbox" class="form-check-input" id="salame1" v-model="opcionais" value="salame">
+      <label class="form-check-label" for="salame1">Salame</label>
+    </div>
 
-        </div>
-      </div>
+    <div class="form-check">
+      <input type="checkbox" class="form-check-input" id="salame2" v-model="opcionais" value="salame">
+      <label class="form-check-label" for="salame2">Salame</label>
+    </div>
+
+    <div class="form-check">
+      <input type="checkbox" class="form-check-input" id="salame3" v-model="opcionais" value="salame">
+      <label class="form-check-label" for="salame3">Salame</label>
+    </div>
+
+  </div>
+</div>
+
       <div class="mb-3">
         <button type="submit" class="btn btn-form w-100" >Criar meu burguer</button>
       </div>
@@ -48,49 +69,8 @@
 </template>
 
 <script>
+import "@/assets/css/burguerForm.css"; 
 export default {
   name:'BurgerForm'
 }
 </script>
-
-<style>
-.mb-3{
- text-align: start;
-}
-
-
-label{
- font-weight:bold;
- color:#222;
- padding: 5px 10px;
- border-left:4px solid #fcba03;
-}
-.mb-3 button{
-    background-color:#fcba03;
-    border: none;
-    color:white;
-}
-.mb-3 button:hover{
-    background-color:#e9ab02;
-    color:white;
-}
-
-#form-burguer {
-    width: 600px;
-  }
-.form-check{
-    flex-direction: row;
-    flex-wrap:wrap;
-}
-.form-check-label{
-    border:solid red 1px;
-    margin-bottom:20px;
-    width:40%;
-    display: flex;
-    align-items: start;
-  }
-
-  *{
-    border:solid red 1px;
-  }
-</style>

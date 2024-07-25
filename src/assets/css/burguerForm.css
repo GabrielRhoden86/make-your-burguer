@@ -1,0 +1,53 @@
+.mb-3 {
+    text-align: start;
+}
+
+label {
+    font-weight: bold;
+    color: #222;
+    padding: 5px 10px;
+    border-left: 4px solid #fcba03;
+}
+
+.mb-3 button {
+    background-color: #fcba03;
+    border: none;
+    color: white;
+}
+
+.mb-3 button:hover {
+    background-color: #e9ab02;
+    color: white;
+}
+
+#form-burguer {
+    width: 600px;
+}
+
+.form-check-container {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.form-check {
+    display: flex;
+    align-items: center;
+    margin-right: 20px;
+}
+
+.mb-3 .form-select, .mb-3 input{
+    background-color: #F7F7F7!important;
+    border:none;
+}
+
+.form-check label {
+    border: none;
+    font-size:1rem;
+    font-weight: 500;
+    line-height: 2px;
+    color: #444444;
+}
+
+.form-check-label {
+    margin-left: 5px;
+}
