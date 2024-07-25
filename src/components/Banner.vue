@@ -1,6 +1,6 @@
 <template>
-    <div id="main-banner">
-        <h1>Make Your Burguer</h1>
+    <div id="main-banner" class="d-flex align-items-center justify-content-starts">
+        <h1 class="text-center p-4">Make Your Burguer</h1>
     </div>
 </template>
 

@@ -4,9 +4,6 @@
     background-repeat: no-repeat;
     background-size: cover; 
     height:700px;
-    display:flex;
-    align-items: center;
-    justify-content: flex-start;
    }
    
    /* Tablet (a partir de 768px de largura) */
@@ -36,8 +33,6 @@
    
    #main-banner h1{
        color:#fafafa;
-       text-align: center;
        font-size:4em;
        background-color:#222;
-       padding:20px 40px;
    }

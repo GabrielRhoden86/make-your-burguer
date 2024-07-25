@@ -1,0 +1,24 @@
+#nav-bar {
+    color: #2c3e50;
+    background-color: #222;
+  }
+  
+  #nav-bar #logo-url {
+    margin-right: auto;
+  }
+  
+  #logo {
+    width: 40px;
+    height: 40px;
+  }
+  
+  #nav-bar a {
+    color: #FCBA03;
+    text-decoration: none;
+    margin: 12px;
+    transition: color 0.4s; /* Ajuste aqui */
+  }
+  
+  #nav-bar a:hover {
+    color: white;
+  }

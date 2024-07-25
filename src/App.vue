@@ -4,19 +4,18 @@
   </div>
     <NavBar :logo="logo_src" :alt="app_name" />
     <router-view />
-    <FooterBar />
+    <Footer />
 </template>
 
 <script>
-import NavBar from '@/components/NavBar.vue'
-import FooterBar from '@/components/FooterBar.vue'
-import "@/assets/css/style.css"; 
-
+import NavBar from '@/components/NavBar.vue' 
+import Footer from '@/components/Footer.vue'
+import "@/assets/css/style.css"
 export default {
     name: 'app',
     components: {
       NavBar,
-      FooterBar
+      Footer
   },
   data(){
     return {

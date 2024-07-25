@@ -1,6 +1,6 @@
 <template>
   <banner/>
-  <div class="main-container">
+  <div class="main-container m-5">
     <h1>Monte Seu Burguer:</h1>
     <BurgerForm/>
   </div>

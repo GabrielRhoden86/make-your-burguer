@@ -24,48 +24,40 @@
           <option value="maminha">Maminha</option>
         </select>
       </div>
-      <div class="mb-3 r">
+    <div class="mb-3 r">
   <label for="opcionais" class="form-label">Selecione os opcionais:</label>
   <div class="form-check-container">
-
     <div class="form-check">
       <input type="checkbox" class="form-check-input" id="salame1" v-model="opcionais" value="salame">
       <label class="form-check-label" for="salame1">Salame</label>
     </div>
-
     <div class="form-check">
       <input type="checkbox" class="form-check-input" id="salame2" v-model="opcionais" value="salame">
       <label class="form-check-label" for="salame2">Salame</label>
     </div>
-
     <div class="form-check">
       <input type="checkbox" class="form-check-input" id="salame3" v-model="opcionais" value="salame">
       <label class="form-check-label" for="salame3">Salame</label>
     </div>
-
     <div class="form-check">
       <input type="checkbox" class="form-check-input" id="salame1" v-model="opcionais" value="salame">
       <label class="form-check-label" for="salame1">Salame</label>
     </div>
-
     <div class="form-check">
       <input type="checkbox" class="form-check-input" id="salame2" v-model="opcionais" value="salame">
       <label class="form-check-label" for="salame2">Salame</label>
     </div>
-
     <div class="form-check">
       <input type="checkbox" class="form-check-input" id="salame3" v-model="opcionais" value="salame">
       <label class="form-check-label" for="salame3">Salame</label>
     </div>
-
   </div>
-</div>
-
-      <div class="mb-3">
-        <button type="submit" class="btn btn-form w-100" >Criar meu burguer</button>
-      </div>
-     </form>
-    </div>
+ </div>
+  <div class="mb-3">
+    <button type="submit" class="btn btn-form w-100" >Criar meu burguer</button>
+  </div>
+  </form>
+ </div>
 </template>
 
 <script>
