@@ -1,7 +1,4 @@
 <template>
-  <div>
-
-  </div>
     <NavBar :logo="logo_src" :alt="app_name" />
     <router-view />
     <Footer />

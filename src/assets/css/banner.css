@@ -1,23 +1,38 @@
-#main-banner{              
-    background-image: url('/public/img/burger.jpg');
-    background-position: 0 -250px;
-    background-repeat: no-repeat;
-    background-size: cover; 
-    height:700px;
-   }
-   
+#main-banner {
+  background-image: url('/public/img/burger.jpg');
+  background-position: center -380px; /* Ajuste conforme necessário */
+  background-repeat: no-repeat;
+  background-size: 100% auto;
+  height: 67vh;
+}
+   #main-banner h1{
+    color:#fafafa;
+    text-align: center;
+    font-size:4em;
+    background-color:#222;
+    padding:20px 40px;
+ }
    /* Tablet (a partir de 768px de largura) */
    @media (max-width: 1024px) {
      #main-banner {
        height: 450px; /* 700px - 150px */
+       /* background-image: url('/public/img/burguer-header.jpg');
+       background-position: center center;
+       background-size: cover; 
+       background-size: 100% auto; 
+       border:solid 3px blue; */
      }
-   
    }
    
    /* Celular (a partir de 768px de largura) */
    @media (max-width: 768px) {
      #main-banner {
-       height: 300px; /* 550px - 150px */
+       height: 350px; /* 550px - 150px */
+       /* background-image: url('/public/img/burguer-header.jpg');
+       background-position: 0 -1px;
+       background-size: cover; 
+       background-size: 100% auto; 
+       border:solid 3px orange; */
      }
    }
    
@@ -25,14 +40,11 @@
    @media (max-width: 576px) {
      #main-banner {
        height: 300px; /* 400px - 150px */
+       /* border:solid 3px red; */
      }
+
      h1{
        font-size:3.5rem !important;
      }
    }
    
-   #main-banner h1{
-       color:#fafafa;
-       font-size:4em;
-       background-color:#222;
-   }

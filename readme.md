@@ -46,10 +46,13 @@ ____________________________________________________Baixar Libs_________________
 ## npm install bootstrap bootstrap-vue
 Para usar o Bootstrap no Vue
 
-## npm install json-server
-Funciona como um db em um arquivo json vide db/db.json
+## 1 - npm install json-server
+Funciona como um db em um arquivo json vide db/db.json              
 e possivel acessar o conteudo do db(api) pelos end-points
-http://localhost:3000/ingredientes
+## 2 - npm run backend
+http://localhost:8080/ingredientes
 http://localhost:3000/status
 http://localhost:3000/burgers
+
+
 

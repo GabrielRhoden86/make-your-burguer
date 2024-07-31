@@ -8,7 +8,6 @@ const routes = [
   { path: '/pedidos', component: Pedidos },
   { path: '/teste', component: Teste }
 ]
-
 const router = createRouter({
   history: createWebHistory(process.env.BASE_URL),
   routes
