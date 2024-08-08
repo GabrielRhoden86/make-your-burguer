@@ -28,9 +28,10 @@ label {
 
 .form-check {
     display: flex;
-    align-items: center;
+    align-items: center !important;
     box-sizing: border-box;
     margin-right: 20px;
+    width:140px;
 }
 
 .mb-3 .form-select{
@@ -39,7 +40,8 @@ label {
 }
 
 .mb-3 .form-select option{
-    font-size: 1rem;
+    font-size: 0.9rem;
+    text-align: center;
 }
 
 .mb-3 .form-control{
@@ -58,3 +60,4 @@ label {
 .form-check-label {
     margin-left: 5px;
 }
+
