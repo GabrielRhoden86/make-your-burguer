@@ -40,8 +40,9 @@ label {
 }
 
 .mb-3 .form-select option{
-    font-size: 0.9rem;
-    text-align: center;
+    font-size: 1rem;
+    text-align: start;
+    padding:10px;
 }
 
 .mb-3 .form-control{

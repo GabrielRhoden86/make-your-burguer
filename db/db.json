@@ -124,54 +124,38 @@
         "Cebola roxa"
       ],
       "status": "Finalizado",
-      "id": "1"
+      "id": "1a"
     },
     {
-      "nome": "João Coelho",
-      "carne": "Maminha",
+      "id": "4bab",
+      "nome": "Rodrigo Rhoden",
+      "carne": "Picanha",
+      "pao": "Parmesão e Orégano",
+      "opcionais": [
+        "Alface"
+      ],
+      "status": "Solcitado"
+    },
+    {
+      "id": "0d17",
+      "nome": "Thiago Rocha",
+      "carne": "Alcatra",
       "pao": "3 Queijos",
       "opcionais": [
-        "Salame",
-        "Cebola roxa"
-      ],
-      "status": "Solicitado",
-      "id": "4"
-    },
-    {
-      "id": "e645",
-      "nome": "Gabriel",
-      "carne": "Maminha",
-      "pao": "Selecione",
-      "opcionais": [
-        "Alface",
-        "Cebola roxa",
-        "Cheddar"
+        "Bacon",
+        "Tomate"
       ],
       "status": "Solcitado"
     },
     {
-      "id": "6575",
-      "nome": "Gabriel",
-      "carne": "Maminha",
-      "pao": "Selecione",
-      "opcionais": [
-        "Alface",
-        "Cebola roxa",
-        "Cheddar"
-      ],
-      "status": "Solcitado"
-    },
-    {
-      "id": "cdcf",
-      "nome": "Thiago",
-      "carne": "Picanha",
+      "id": "034a",
+      "nome": "João Carlos",
+      "carne": "Veggie burger",
       "pao": "Integral",
       "opcionais": [
-        "Bacon",
-        "Tomate",
-        "Cebola roxa",
-        "Rúcula",
-        "Queijo Azul"
+        "Mostarda",
+        "Alface",
+        "Salame"
       ],
       "status": "Solcitado"
     }

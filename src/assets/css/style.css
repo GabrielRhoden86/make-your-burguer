@@ -3,7 +3,6 @@
     margin:0;
     box-sizing: border-box; /*para os inputs não utrapassarem o tamanho do elemento pai*/
     font-family: Avenir, Helvetica, Arial, sans-serif;
-    text-align: center;
 }
   .main-container{
    min-height:570px;

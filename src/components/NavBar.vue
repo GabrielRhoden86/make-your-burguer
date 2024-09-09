@@ -1,5 +1,5 @@
 <template>
-    <nav id="nav-bar" class="d-flex justify-content-end pt-4 pr-5">
+    <nav id="nav-bar" class="d-flex justify-content-end pt-4 pr-5 w-100">
       <router-link to="/" id="logo-url">
         <img :src="logo" :alt="alt" id="logo">
       </router-link>

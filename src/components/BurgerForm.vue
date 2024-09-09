@@ -1,7 +1,7 @@
  <template>
-   <div>
-     <p>Componente de Menssagem</p>
-   </div>
+    <div class="d-flex justify-content-center">
+     <Menssage :msg="msg" v-show="msg"/>
+    </div>
    <div class="d-flex justify-content-center">
    <form class="col-md-5" id="form-burguer" @submit="createBurguer" >
      <div class="mb-3">
@@ -11,14 +11,12 @@
      <div class="mb-3">
        <label for="pao" class="form-label">Escolha o pão:</label>
        <select class="form-select" id="pao" v-model="pao">
-         <option>Selecione</option>
          <option v-for="pao in paes" :key="pao.id" :value="pao.tipo">{{ pao.tipo }}</option>
        </select>
       </div>
       <div class="mb-3">
         <label for="carne" class="form-label">Escolha a carne do seu Burguer:</label>
         <select class="form-select" id="carne" v-model="carne">
-          <option>Selecione</option>
           <option v-for="carne in carnes" :key="carne.id" :value="carne.tipo">{{ carne.tipo }}</option>
       </select>
     </div>
@@ -40,7 +38,9 @@
 
 <script>
 import "@/assets/css/burguerForm.css"; 
+import Menssage from './Menssage.vue';
 export default {
+  components: { Menssage },
   name:'BurgerForm',
   data(){
     return{
@@ -63,6 +63,7 @@ export default {
       this.carnes = data.carnes;
       this.opcionaisdata = data.opcionais;
     },
+    //Post Data
     async createBurguer(e){
       e.preventDefault();
       const data = {
@@ -78,8 +79,10 @@ export default {
         headers:{"Content-Type":"application/json"},
         body:JasonData
       });
+      //Response
       const response = await request.json();
-      console.log(response);
+      this.msg = `Pedido ${response.id} realizado com sucesso!`
+      setTimeout(()=> this.msg="",10000);
       this.nome = "",
       this.carne = "",
       this.pao = "",
